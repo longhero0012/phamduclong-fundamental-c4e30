@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        <label>username </label> 
+        <input name="tai_khoan"/>       
+        <label>password</label>
+        <input name="mat_khau"/>    
+        <input type="login" value="login"/>
+
+    </form>
+    {% for v in data %}
+    {{v.boddy}}
+    {%endfor%}
+</body>
+</html>
